@@ -3,7 +3,7 @@ import './style.css'
 interface Props {
   todo: String;
   setTodo: any;
-  handleAdd:()=> void;
+  handleAdd:any;
 }
 const InputField: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
   return (
